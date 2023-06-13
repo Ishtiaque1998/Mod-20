@@ -1,5 +1,5 @@
 function leapYear(year){
- if(year%4==0){
+ if(year%4==0 && year%100!==0 &&year%400===0){
   return'leap year'
  }
  else{
@@ -7,6 +7,6 @@ function leapYear(year){
  }
 }
 
-const input=2080;
+const input=2100;
 const result=leapYear(input);
 console.log(result);
