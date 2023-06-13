@@ -1,10 +1,10 @@
 function oddEven(num){
- if(num%2==0){
-   return 'even';
+ if(num%2!==0){
+   return 'odd';
  
  }
  else{
-  return 'odd';
+  return 'even';
  }
 
 }
