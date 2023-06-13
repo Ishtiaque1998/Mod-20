@@ -16,8 +16,22 @@ console.log(dadiFeet)
 
 function findFeet(inches){
  const feet=inches/12;
- console.log(feet);
+ return feet;
+ // console.log(feet);
 
 }
 
-findFeet(290)
+const inches=890;
+const feet=findFeet(inches);
+console.log(feet);
+
+
+const babaInches=900;
+const nanaFeet=findFeet(babaInches);
+console.log(nanaFeet)
+
+
+
+
+
+
