@@ -11,9 +11,9 @@ function getSumArray(arr){
 
 }
 
-const arr=[1,2,3,4,5,6];
-const result=getSumArray(arr);
-console.log(result)
+// const arr=[1,2,3,4,5,6];
+// const result=getSumArray(arr);
+// console.log(result)
 
 
 
@@ -23,7 +23,7 @@ function getTheOdd(arr){
   const index=i;
   const element=arr[index];
  if(element%2!==0){
-   console.log(index,element);
+  //  console.log(index,element);
    oddNUmbers.push(element);
  }
  }
